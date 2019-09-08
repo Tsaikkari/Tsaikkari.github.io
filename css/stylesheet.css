@@ -167,13 +167,56 @@ a {
   margin-left: 4%;
 }
 
+.animated-text {
+  color: #000;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50% -50%);
+  height: 60px;
+  overflow: hidden;
+}
+
+.line {
+  text-align: center;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.line:first-child {
+  animation: anim 15s 3; 
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  16% {
+    margin-top: -60px;
+  }
+  33% {
+    margin-top: -120px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  66% {
+    margin-top: -240px;
+  }
+  82% {
+    margin-top: -300px;
+  }
+  100% {
+    margin-top: 360;
+  }
+}
+
 /*work */
 #works {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  background-color: #b1d7d2;
   margin: 0;
   margin-right: 0;
 }

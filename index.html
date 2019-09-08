@@ -69,153 +69,162 @@
                 <li><strong>Databases:</strong> MySQL</li>
               </ul>
          </div>
-         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6" id="intro">
-            <p>I'm a Berlin-based certified Web Developer. My background is in piano teaching and special education. 
-              Having been a teacher, I have developed a strong intuition in recognizing different learning styles of students 
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6" id="intro">
+          <p>I'm a Berlin-based certified Web Developer. My background is in piano teaching and special education. 
+            Having been a teacher, I have developed a strong intuition in recognizing different learning styles of students 
               and a capacity to facilitate customized teaching plans based on each students’ needs. That helps me in web development
               in terms of looking at problems from many angles and finding a proper solution to whatever challenge comes across.
               I specialize in frontend and backend development, and I'm interested in working in 
               different fields in tech. I’m currently available for both freelance and contract work 
-              in the Berlin area.</p>
-          </div>  
+              in the Berlin area.
+          </p>
+        </div>  
           
-          <div class="col-xs-12 col-sm-5 col-md-5" id="red"><br><br>
-            <div class="container-modal" id="resume">
-              <div class="row">
-                <div class="col-sm">
-                 <button type="button" class="btn btn-light modal-button" id="resume-button" data-toggle="modal" data-target=".bd-example-modal">My Resume</button>
+        <div class="col-xs-12 col-sm-5 col-md-5" id="red"><br><br>
+          <div class="container-modal" id="resume">
+            <div class="row">
+              <div class="col-sm">
+               <button type="button" class="btn btn-light modal-button" id="resume-button" data-toggle="modal" data-target=".bd-example-modal">My Resume</button>
+              </div>
+            </div>
+          </div>
+          <!--Modal-->
+          <div class="modal fade bd-example-modal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                    <!--Resume -->
+                  <div class="modal-body">
+                    <object data="img/Trospe-Kirsi-Resume.pdf" type="application/pdf" width="100%" height="100%">
+                      <p>You can <a href="img/Trospe-Kirsi-Resume.pdf">click here to
+                        download the PDF file.</a></p>
+                    </object>
+                  </div>
+                </div>
+              </div>
+            </div><!--Resume ends -->
+          </div><!--modal col ends-->
+        </div><!--intro row ends-->
+      </div><!--about row ends--> 
+    </div><!--container ends-->
+
+    <div class="container-fluid" id="moving-text">
+      <div class="animated-text">
+        <div class="line">Check out my Ruby on Rails and</div>
+        <div class="line">JavaScript Apps below</div>
+        <div class="line">Case Study of the Ruby App can be found</div>
+        <div class="line">by hovering over this text or the image on the left.</div>
+      </div>
+    </div>
+     
+     <!--Case study inside a modal window-->
+    <div class="container-fluid" id="case-study">
+      <div class="row" id="case-std"> 
+        <div class="col-xs-12 col-sm-12 col-md-12" id="case-pic"><a href="#myModal" role="button" data-toggle="modal">
+          <div class="pic" id="case">
+            <div class="text">
+                Case Study
+            </div>
+          </div>
+            </a>
+        </div>
+          <div id="myModal" class="modal hidden fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 id="myModalLabel">Project Case Study</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-work">
+                  <div class="container responsive" id="case-study-container">
+                    <h5>Overview</h5>
+                      <p>A dynamic demo web application built with Ruby on Rails.</p>
+                    <h5>Purpose and Context</h5>
+                        <p>This project was part of CareerFoundry’s Web Development Course. 
+                        Through the project, I learned how to build dynamic websites. 
+                        </p>
+                    
+                    <h5>Objective</h5>
+                      <p>The aim of this project was to build a fully functional e-commerce site 
+                      to show off my web development skills.</p>
+                        
+                    <h5>Approach</h5>
+                      <p>I followed the curriculum of the CareerFoundry course, carrying 
+                      out assignments and navigating the course with the help of my Tutor 
+                      and Mentor. I visited commercial and non-commercial websites to inspire myself in 
+                      order to improve my skills and my artistic (or commercial) eye.<br><br>
+                      The most satisfying aspects for me in this course were
+                      the frontend programming and experimenting with Chrome Developer Tools 
+                      as well as with some JavaScript features. Especially building the front
+                      page of the app was fun. I had figured out how to get a bike logo move, 
+                      and when I found an image I liked, I knew immediately how the page should 
+                      look like. The challenge was to set the image as a background in 
+                      Rails and get it show up both in the development and the production 
+                      environment. With the help of Google, that problem was quite easy to 
+                      solve.
+                      </p>
+
+                      <h5>Challenge</h5>
+                      <p>During this course I encountered multiple challenges which I 
+                      managed to overcome in a reasonable time. To mention the biggest one: 
+                      A person in a meet-up destroyed my application and pushed it into my 
+                      master branch in Git. I had to build the whole app all over again which 
+                      took me one night and a half day. Ironically, I learned about branches 
+                      couple of Exercises later on the course.<br> 
+                      This was a real learning experience for me. I learned to 1) never 
+                      let a non professional touch my app, 2) always make a branch before 
+                      letting someone touch my app. 
+                      </p>
+      
+                      <h5>Retrospective</h5>
+                      <p class="list-header">What went well?</p>
+                      <ul>
+                        <li>Skills: HTML, CSS, JavaScript</li>
+                        <li>Processes: Frontend coding</li>
+                        <li>Solutions: Keep exploring different features and carrying out own ideas</li>
+                      </ul>
+      
+                        <p class="list-header">What didn’t go well?</p>
+                        <p>While doing this course, I also participated in a database course and 
+                        Java programming course at the Open University of Helsinki which led me
+                        to be too busy to learn Ruby on Rails properly. For personal reasons I 
+                        had set the deadline for completing this course about 2 months before its 
+                        due date which made the pressure that much harder.</p>
+                        <ul>
+                          <li>Skills: Ruby on Rails</li>
+                          <li>Processes: Using Ruby language to create a Rails application</li>
+                          <li>Skill gap: Missing some basic skills on Ruby syntax, punctuation and
+                          functions</li>
+                          <li>Solution: Read ‘Ruby For Beginners’ and ‘Web-apps For Beginners’ from 
+                          Rubymonstas and  re-read Ruby on Rails material on the CF’s course and 
+                          other Ruby tutorials online. I got back on track when the basics were clear.</li>
+                        </ul>
+
+                          <p class="list-header">What can be improved?</p>
+                          <p>It’s great to be able to multitask, but it’s important to not let it 
+                            have a negative impact on the quality of the learning process.</p>
+                          <ul>
+                            <li>Skills: Concentrate on one thing at a time</li>
+                            <li>Processes: Learning, and integrating what has been learned</li>
+                            <li>Skill gaps: Assessment of own capacities</li>
+                            <li>Solution: Take time to learn, integrate and relax.</li>
+                          </ul>
+                  </div>
                 </div>
               </div>
             </div>
-            <!--Modal-->
-            <div class="modal fade bd-example-modal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                      <!--Resume -->
-                  <div class="modal-body">
-                      <object data="img/Trospe-Kirsi-Resume.pdf" type="application/pdf" width="100%" height="100%">
-                        <p>You can <a href="img/Trospe-Kirsi-Resume.pdf">click here to
-                          download the PDF file.</a></p>
-                      </object>
-                    </div>
-                  </div>
-                </div>
-              </div><!--Resume ends -->
-            </div>
-          </div><!--row ends-->
-        </div><!--row ends--> 
-      </div><!--container ends-->
-     
-       <!--Case study inside a modal window-->
-      <div class="container-fluid" id="case-study">
-          <div class="row" id="case-std"> 
-            <div class="col-xs-12 col-sm-12 col-md-12" id="case-pic"><a href="#myModal" role="button" data-toggle="modal">
-              <div class="pic" id="case">
-                  <div class="text">
-                      Case Study
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <div id="myModal" class="modal hidden fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h3 id="myModalLabel">Project Case Study</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-work">
-                        <div class="container responsive" id="case-study-container">
-                          <h5>Overview</h5>
-                            <p>A dynamic demo web application built with Ruby on Rails.</p>
-                          
-                          <h5>Purpose and Context</h5>
-                            <p>This project was part of CareerFoundry’s Web Development Course. 
-                            Through the project, I learned how to build dynamic websites. 
-                            </p>
-                        
-                          <h5>Objective</h5>
-                            <p>The aim of this project was to build a fully functional e-commerce site 
-                            to show off my web development skills.</p>
-                            
-                          <h5>Approach</h5>
-                            <p>I followed the curriculum of the CareerFoundry course, carrying 
-                            out assignments and navigating the course with the help of my Tutor 
-                            and Mentor. I visited commercial and non-commercial websites to inspire myself in 
-                            order to improve my skills and my artistic (or commercial) eye.<br><br>
-                            The most satisfying aspects for me in this course were
-                            the frontend programming and experimenting with Chrome Developer Tools 
-                            as well as with some JavaScript features. Especially building the front
-                            page of the app was fun. I had figured out how to get a bike logo move, 
-                            and when I found an image I liked, I knew immediately how the page should 
-                            look like. The challenge was to set the image as a background in 
-                            Rails and get it show up both in the development and the production 
-                            environment. With the help of Google, that problem was quite easy to 
-                            solve.
-                            </p>
-  
-                          <h5>Challenge</h5>
-                            <p>During this course I encountered multiple challenges which I 
-                            managed to overcome in a reasonable time. To mention the biggest one: 
-                            A person in a meet-up destroyed my application and pushed it into my 
-                            master branch in Git. I had to build the whole app all over again which 
-                            took me one night and a half day. Ironically, I learned about branches 
-                            couple of Exercises later on the course.<br> 
-                            This was a real learning experience for me. I learned to 1) never 
-                            let a non professional touch my app, 2) always make a branch before 
-                            letting someone touch my app. 
-                            </p>
-          
-                          <h5>Retrospective</h5>
-                            <p class="list-header">What went well?</p>
-                            <ul>
-                              <li>Skills: HTML, CSS, JavaScript</li>
-                              <li>Processes: Frontend coding</li>
-                              <li>Solutions: Keep exploring different features and carrying out own ideas</li>
-                            </ul>
-          
-                            <p class="list-header">What didn’t go well?</p>
-                            <p>While doing this course, I also participated in a database course and 
-                            Java programming course at the Open University of Helsinki which led me
-                            to be too busy to learn Ruby on Rails properly. For personal reasons I 
-                            had set the deadline for completing this course about 2 months before its 
-                            due date which made the pressure that much harder.</p>
-                            <ul>
-                              <li>Skills: Ruby on Rails</li>
-                              <li>Processes: Using Ruby language to create a Rails application</li>
-                              <li>Skill gap: Missing some basic skills on Ruby syntax, punctuation and
-                              functions</li>
-                              <li>Solution: Read ‘Ruby For Beginners’ and ‘Web-apps For Beginners’ from 
-                              Rubymonstas and  re-read Ruby on Rails material on the CF’s course and 
-                              other Ruby tutorials online. I got back on track when the basics were clear.</li>
-                            </ul>
-  
-                            <p class="list-header">What can be improved?</p>
-                            <p>It’s great to be able to multitask, but it’s important to not let it 
-                              have a negative impact on the quality of the learning process.</p>
-                            <ul>
-                              <li>Skills: Concentrate on one thing at a time</li>
-                              <li>Processes: Learning, and integrating what has been learned</li>
-                              <li>Skill gaps: Assessment of own capacities</li>
-                              <li>Solution: Take time to learn, integrate and relax.</li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- row ends -->
-            </div><!--Container case study ends-->
-           
+          </div><!--modal ends-->
+        </div><!-- row ends -->
+      </div><!--container case study ends-->
+       
          <!--Work section  -->
         <div class="container-fluid" id="works">
           <div class="row">

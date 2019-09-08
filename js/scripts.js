@@ -60,9 +60,9 @@ $(document).ready(function() {
       ");
       var images = $("#works img");
       if(i%2 === 0){
-        $(images[i]).css("border", "1px solid #448a99");
+        $(images[i]).css("border", "");
       } else {
-        $(images[i]).css("border", "2px solid #e7472e");
+        $(images[i]).css("border", "5px solid #e7472e");
       };
     };
       $(".work-img").mouseenter(function() {
