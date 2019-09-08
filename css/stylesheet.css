@@ -171,7 +171,7 @@ a {
   color: #000;
   position: absolute;
   top: 30%;
-  left: 25%;
+  left: 1%;
   transform: translate(-50% -50%);
   height: 60px;
   overflow: hidden;
@@ -179,12 +179,12 @@ a {
 
 .line {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 60px;
 }
 
 .line:first-child {
-  animation: anim 15s 3; 
+  animation: anim 15s 20; 
 }
 
 @keyframes anim {
