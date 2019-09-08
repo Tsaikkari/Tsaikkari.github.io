@@ -6,7 +6,19 @@ body {
 }
 
 .container-fluid { 
-  padding-top: 70px;
+  padding-top: 50px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-12 {width: 100%;}
 }
 
 /*Typography*/
@@ -56,6 +68,12 @@ a {
 }
 
 /*about me*/
+@media all {
+  img {
+    display: responsive;
+  }
+}
+
 #about {
   margin: auto;
   width: 86.5%;
@@ -108,12 +126,6 @@ a {
 
 #skills-header {
   margin-top: 1%;
-}
-
-@media all {
-  img {
-    display: responsive;
-  }
 }
 
 #intro p {
