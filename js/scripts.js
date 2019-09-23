@@ -84,5 +84,21 @@ $(document).ready(function() {
     //});
   
     // listen to clicks
-    //Microsoft.Maps.Events.addHandler(map, 'click', function () { alert('mapClick'); });
-  //}
+    //Microsoft.Maps.Events.addHandler(map, 'click', function () { alert('mapClick'); });window.onload = function tearsDrop() {
+  var elem = document.getElementById("tear"); 
+  var pos = 0;
+  var repetition = 0;
+  var id = setInterval(frame, 1);
+  var repetition = setTimeout(tearsDrop, 80);
+      if (repetition == 198) {
+          clearTimeout(repetition);
+      }
+  function frame() {
+      if (pos == 200) {
+          clearInterval(id);
+      } else {
+          pos++; 
+          elem.style.top = pos + 'px';
+      } 
+    }
+  
