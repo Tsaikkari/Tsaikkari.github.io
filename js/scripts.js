@@ -23,7 +23,7 @@ $(document).ready(function() {
         console.log('clicked');
       var comment = $('.message-box').val();
         console.log(comment);
-      if(comment === "") {+┊  ┊ 6┊
+      if(comment === "") {
         $('.message-box').css('border', '2px solid red');
       } else {
         $('#visible-comment').html(comment);
