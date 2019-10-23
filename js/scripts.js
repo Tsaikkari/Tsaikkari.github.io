@@ -12,42 +12,6 @@ $(document).ready(function() {
       };
     });
   
-  // Tooltips
-    $(function () {
-    $('#item1').tooltip();
-    $('[data-toggle="tooltip"]').tooltip();
-    });
-  
-    // Textarea background
-    $('#button').on('click', function() {
-        console.log('clicked');
-      var comment = $('.message-box').val();
-        console.log(comment);
-      if(comment === "") {
-        $('.message-box').css('border', '2px solid red');
-      } else {
-        $('#visible-comment').html(comment);
-        $('.message-box').hide();
-          console.log(comment);
-      }
-    });
-  
-    //$('#message-box').css('background-color', '#FFF3F3');
-  
-  
-    $('.message-box').on('keyup', function() {
-      console.log('keyup happened'); // making sure that the keyup works
-      var howMany = 3;
-      var howLong = "string"
-      var charCount = $('.message-box').val().length; // here we set the length of the contenct of the textarea to a variable
-        console.log(charCount); // making sure it's set to the right value
-      $('#char-count').html(charCount); //showing a running character count to the user
-      if(charCount > 50) {
-        $('#char-count').css('color', 'red');
-      } else { $('#char-count').css('color', 'black');
-      };
-    });
-  
     //work section
       for(var i = 0; i < works.length; ++i) {
         $("#work").append("\
