@@ -167,53 +167,9 @@ a {
   margin-left: 4%;
 }
 
-.animated-text {
-  color: #000;
-  position: absolute;
-  top: 30%;
-  left: 1%;
-  transform: translate(-50% -50%);
-  height: 60px;
-  overflow: hidden;
-}
-
-.line {
-  text-align: center;
-  font-size: 25px;
-  line-height: 60px;
-}
-
-.line:first-child {
-  animation: anim 15s 20; 
-}
-
-@keyframes anim {
-  0% {
-    margin-top: 0;
-  }
-  16% {
-    margin-top: -60px;
-  }
-  33% {
-    margin-top: -120px;
-  }
-  50% {
-    margin-top: -180px;
-  }
-  66% {
-    margin-top: -240px;
-  }
-  82% {
-    margin-top: -300px;
-  }
-  100% {
-    margin-top: 360;
-  }
-}
-
 /*work */
-#works {
-  width: 100%;
+#work {
+  width: 0%;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -222,72 +178,23 @@ a {
 }
 
 .work-img {
-  max-width: 100%; /* needs to be set to the width of your image files if they are relatively small */
+  display: block;
+  margin: auto;
+  max-width: 30%; /* needs to be set to the width of your image files if they are relatively small */
   position: relative; /* is needed for .info position: absolute to work */
-}
-
-#work-pic {
-  padding-left: 0;
-}
-
-.work-img:hover {
-  background: #000;
 }
 
 .info {
   position: absolute; /* let's us move the text around and not worry about the image */
-  bottom: 0%; 
-  left: 3%;
-  color: #FFF;
-  text-align: center;
+  bottom: 36%; 
+  
+  color: #fe7a47;
+  text-align: right;
   font-family: 'Roboto' sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.5em;
   display: none;
-}
-
-#case-study {
-  width: 100%;
-  padding-left: 0;
-}
-
-.pic {
-	width: 100%;
-  height: 200px;
-	background: url("../img/casestudypic.png") no-repeat;
-}
-
-#case-pic {
-  padding-left: 0;
-  padding-right: 0.7%;
-}
-
-.text {
-	width: 100%;
-	height: 200px;
-	background:#000;
-  opacity: 0;
-  text-transform: uppercase;
-}
-
-.pic:hover .text {
-	opacity: 1;
-  text-align: justify;
-  color:#FFF;
-	font-size: 27px;
-	font-weight: 700;
-	font-family: 'Roboto' sans-serif;
-  padding-left: 41%;
-  padding-top: 7%;
-}
-
-a:hover {
-  text-decoration: none; 
-}
-
-#case-study-container {
-  padding-top: 1%;
 }
 
 .list-header {
