@@ -160,14 +160,6 @@ a {
   height: 900px;
 }
 
-@media (max-width: 600px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-  }
-}
-
 #resume-button {
   background-color: #fe7a47;
   float: left;
