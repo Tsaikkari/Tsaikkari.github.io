@@ -131,9 +131,10 @@ a {
 
 .info {
   position: absolute; /* let's us move the text around and not worry about the image */
-  bottom: 36%;
+  top: 15%;
+  left: 22%;
   color: #fe7a47;
-  text-align: right;
+  text-align: center;
   font-family: 'Roboto' sans-serif;
   text-transform: uppercase;
   font-weight: 800;

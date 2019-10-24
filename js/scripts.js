@@ -22,14 +22,14 @@ $(document).ready(function() {
           </a>\
         </div>\
       ");
-      var images = $("#work img");
+      var images = $("#work pic");
       if(i%2 === 0){
         $(images[i]).css("border", "");
       } else {
         $(images[i]).css("border", "");
       };
     };
-      $(".work-img").mouseenter(function() {
+      $(".work-pic").mouseenter(function() {
         $(".info", this).show();
       }).mouseleave(function() {
         $(".info", this).hide();
