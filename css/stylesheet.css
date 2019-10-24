@@ -49,7 +49,7 @@ a {
 #myname {
   font-family: 'Lora', serif;
   color: #2d3033;
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 10px;
   text-align: center;
   padding-top: 12px;
@@ -61,7 +61,7 @@ a {
   text-align: ledt;
   font-size: 2.5em;
   letter-spacing: 4px;
-  color: #2d3033;
+  color: #335252;
   margin-bottom: 0;
   padding-left: 3%;
 }
@@ -76,7 +76,7 @@ a {
 #about {
   margin: auto;
   width: 86.5%;
-  text-align: justify;
+  
   background-color: #d4dde1;
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 #hi {
- padding-top: 50%;
+ padding-top: 40%;
  color: #aa4b41;  
 }
 
@@ -120,6 +120,11 @@ a {
 
 #skills-header {
   margin-top: 1%;
+  padding-right: 2%;
+}
+
+.fa-laptop {
+  background-color: lightblue;
 }
 
 #intro p {
@@ -158,7 +163,7 @@ a {
   float: left;
   color: #d4dde1;
   border: solid #fff 1px;
-  margin-left: 5%;
+  margin-left: 6%;
 }
 
 /*work */
