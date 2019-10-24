@@ -22,11 +22,11 @@ $(document).ready(function() {
           </a>\
         </div>\
       ");
-      var images = $("#work pic");
+      var images = $("#work img");
       if(i%2 === 0){
-        $(images[i]).css("border", "");
+        $(images[i]).css("border", "2px solid #fe7a47");
       } else {
-        $(images[i]).css("border", "");
+        $(images[i]).css("border", "2px solid #d8412f");
       };
     };
       $(".work-pic").mouseenter(function() {
