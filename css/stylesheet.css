@@ -15,7 +15,7 @@
 
 body {
   position: relative;
-  background-color:#75b1a9;
+  background-color:#f5ca99;
 }
 
 .container-fluid {
@@ -43,7 +43,7 @@ a {
 }
 
 .navbar {
-  background-color: #75b1a9!important;
+  background-color: #f5ca99!important;
 }
 
 /*about me*/
@@ -64,7 +64,7 @@ a {
 #about {
   margin: auto;
   width: 80%;
-  background-color: #75b1a9;
+  background-color: #f5ca99;
   text-align: justify;
 }
 
@@ -74,13 +74,13 @@ a {
 
 #hi {
  padding-top: 40%;
- color: #102a49;
+ color: #d8412f;
 }
 
 #intro {
   font-weight: 400;
   font-size: 18px;
-  color: #102a49;
+  color: #2d3033;
   margin-right: 1%;
   margin-left: 0%;
   padding-left: 0%;
@@ -93,14 +93,14 @@ a {
 
 /*skills*/
 #skills {
-  background-color: #d9b44a;
+  background-color: #fcfdfe;
   font-family: 'Lora', serif;
-  color: #4f6457;
+  color: #000;
   font-size: 1.1em;
   margin-left: 5%;
   padding-top: 1%;
   line-height: 35px;
-  border: solid 2px #335252;
+  border: solid 2px #d8412f;
 }
 
 #skills-header {
@@ -169,7 +169,7 @@ a {
 }
 
 #resume-button {
-  background-color: #335252;
+  background-color: #fe7a47;
   float: left;
   color: #d4dde1;
   border: solid #fff 1px;
@@ -191,7 +191,7 @@ a {
 
 #contact-header {
   margin-left: 3%;
-  color: #aa4b41;
+  color: #fe7a47;
   padding-top: 2%;
   padding-bottom: 5%;
 }
@@ -204,7 +204,7 @@ a {
   padding-bottom: 1%;
   font-size: 2.4em;
   letter-spacing: 2px;
-  color: #aa4b41;
+  color: #fe7a47;
 }
 
 #map {
