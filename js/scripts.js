@@ -15,8 +15,8 @@ $(document).ready(function() {
     //work section
       for(var i = 0; i < works.length; ++i) {
         $("#work").append("\
-        <div>\
-        <a href='" + works[i].href + "' class='work-img'>\
+        <div class='col-xs-12 col-sm-6 col-md-4'>\
+        <a href='" + works[i].href + "' class='work-pic'>\
           <img class='img-responsive' src='" + works[i].pic + "'>\
             <span class='info'><p class='proj-title'></p>" + works[i].title + "</span>\
           </a>\
@@ -26,7 +26,7 @@ $(document).ready(function() {
       if(i%2 === 0){
         $(images[i]).css("border", "");
       } else {
-        $(images[i]).css("border", "2px solid #e7472e");
+        $(images[i]).css("border", "");
       };
     };
       $(".work-img").mouseenter(function() {
