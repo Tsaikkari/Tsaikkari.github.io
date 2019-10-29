@@ -11,7 +11,7 @@ $(document).ready(function() {
         });
       };
     });
-  
+
     //work section
       for(var i = 0; i < works.length; ++i) {
         $("#work").append("\
@@ -24,9 +24,9 @@ $(document).ready(function() {
       ");
       var images = $("#work img");
       if(i%2 === 0){
-        $(images[i]).css("border", "2px solid #fe7a47");
+        $(images[i]).css("border", "2px solid #c0b2b5");
       } else {
-        $(images[i]).css("border", "2px solid #d8412f");
+        $(images[i]).css("border", "2px solid #d72c16");
       };
     };
       $(".work-pic").mouseenter(function() {
@@ -36,4 +36,3 @@ $(document).ready(function() {
       });
       return false;
   });
-  
