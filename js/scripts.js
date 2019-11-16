@@ -25,10 +25,17 @@ $(document).ready(function() {
 
       var images = $("#work img");
       if(i%2 === 0){
-        $(images[i]).css("border", "3px solid #1aa8db");
+        $(images[i]).css("border", "");
       } else {
-        $(images[i]).css("border", "3px solid #19cbd0");
+        $(images[i]).css("border-bottom", "solid 4px #fff");
       };
+
+      var texts = $(".info");
+      if(i%2 === 0) {
+        $(texts[i]).css("color", "#ff80ed");
+      } else {
+        $(texts[i]).css("color", "#000"); 
+      }
     };
       $(".work-img").mouseenter(function() {
         $(".info", this).show();
