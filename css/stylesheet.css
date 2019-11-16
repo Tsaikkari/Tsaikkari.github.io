@@ -1,17 +1,4 @@
-* { box-sizing: border-box;
-}
-
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}
-}
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
-}
+* { box-sizing: border-box; }
 
 body {
   position: relative;
@@ -19,7 +6,7 @@ body {
 }
 
 .container-fluid {
-  padding-top: 5%;
+  padding-top: 4%;
 }
 
 /*Typography*/
@@ -37,20 +24,33 @@ li {
   font-weight: normal;
 }
 
-a {
-  font-size: 1em;
-  text-decoration: none;
-}
-
 .navbar {
   background-color:#000!important;
 }
 
-nav .navbar-nav li a{
+nav .navbar-nav li a {
   color: white !important;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed', sans-serif;
+  padding-right: 1%;
+}
+
+.navbar a:hover {
+  color: #2b2b45;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+  padding-right:23%;
   }
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 7rem;
+  }
+}
 
 #name {
   color: #fff;
@@ -70,9 +70,7 @@ nav .navbar-nav li a{
 
 #about {
   margin: auto;
-  width: 85%;
-  background-color: #000;
-  text-align: justify;
+  width: 60%;
 }
 
 #greeting {
@@ -81,17 +79,17 @@ nav .navbar-nav li a{
 
 #hi {
  padding-top: 40%;
- color: #19cbd0;
+ color: #1aa8db;
 }
 
 #intro {
+  margin: auto;
+  width: 60%;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
-  margin-right: 1%;
-  margin-left: 0%;
-  padding-left: 0%;
   letter-spacing: 1px;
+  text-align: justify;
 }
 
 #intro p {
@@ -100,50 +98,22 @@ nav .navbar-nav li a{
 
 /*skills*/
 #skills {
-  background-color: #2b2b45;
+  margin: auto;
+  width: 58%
+}
+
+#skill-list {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #fff;
-  font-size: 1.1em;
-  margin-left: 5%;
-  padding-top: 1%;
+  font-size: 1.5em;
+  padding-top: 2%;
+  padding-left: 0;
   line-height: 35px;
-  border: solid 2px #19cbd0;
 }
 
 #skills-header {
-  margin-top: 1%;
-  padding-right: 2%;
-}
-
-/*work */
-
-#work {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 5;
-  margin: 0;
-  margin-right: 0;
-  display: flex;
-}
-
-.work-pic {
-  display: block;
-  margin: auto;
-  max-width: 320px; /* needs to be set to the width of your image files if they are relatively small */
-  position: relative; /* is needed for .info position: absolute to work*/
-}
-
-.info {
-  position: absolute; /* let's us move the text around and not worry about the image */
-  top: 15%;
-  left: 22%;
   color: #19cbd0;
-  text-align: center;
-  font-family: 'Roboto' sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 0.5em;
-  display: none;
+  padding-top: 2%;
 }
 
 /*Modal window with Resume*/
@@ -166,10 +136,36 @@ nav .navbar-nav li a{
 }
 
 #resume-button {
-  background-color: #2b2b45;
+  background-color: #000;
   color: #fff;
-  border: solid #fff 1px;
-  margin-left: 2%;
+  border: solid 1px #2b2b45;
+}
+
+#databases {
+  padding-right: 0;
+  padding-left: 13%
+};
+
+/*work */
+
+.work-pic {
+  display: block;
+  margin: auto;
+  max-width: 400px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work*/
+}
+
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 18%;
+  left: 3%;
+  color: #19cbd0;
+  text-align: center;
+  font-family: 'Roboto' sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5em;
+  display: none;
 }
 
 /*Contact*/
@@ -187,7 +183,7 @@ nav .navbar-nav li a{
 
 #contact-header {
   margin-left: 3%;
-  color: #1aa8db;
+  color: #19cbd0;
   padding-top: 2%;
   padding-bottom: 5%;
   text-align: center;
@@ -201,12 +197,7 @@ nav .navbar-nav li a{
   padding-bottom: 1%;
   font-size: 1.7em;
   letter-spacing: 2px;
-  color: #1aa8db;
-  text-align: center;
-}
-
-#map {
-  padding-top: 0;
+  color: #19cbd0;
 }
 
 /*Footer*/

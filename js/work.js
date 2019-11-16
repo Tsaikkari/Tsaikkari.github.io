@@ -8,10 +8,5 @@ var works = [
     title:"Notes Game; Work in process",
     pic: "img/game.png",
     href: "https://notes-game.netlify.com/"
-  },
-  {
-    title:"JavaScript/React App; Work in process",
-    pic: "img/shades.png",
-    href: "http://ninetynineshadesofgrey.surge.sh"
   }
 ];
