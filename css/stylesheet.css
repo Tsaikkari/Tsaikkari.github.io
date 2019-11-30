@@ -9,6 +9,7 @@ body {
 
 .container-fluid {
   padding-top: 4%;
+  padding-left: 0;
 }
 
 /*Typography*/
@@ -75,6 +76,7 @@ nav .navbar-nav li a {
 
 #greeting {
   padding-top: 30px;
+  margin-left: 4.3%;
 }
 
 #hi {
@@ -90,7 +92,7 @@ nav .navbar-nav li a {
   font-size: 18px;
   color: #fff;
   letter-spacing: 1px;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 #intro p {
@@ -99,7 +101,7 @@ nav .navbar-nav li a {
 
 /*skills*/
 #skills {
-  margin: auto;
+  margin-left: 19.7%;
   width: 58%
 }
 
@@ -140,6 +142,7 @@ nav .navbar-nav li a {
   background-color: #000;
   color: #fff;
   border: solid 1px #2b2b45;
+  margin-left: 57%;
 }
 
 #databases {
@@ -183,7 +186,6 @@ nav .navbar-nav li a {
 }
 
 #contact-header {
-  margin-left: 3%;
   color: #19cbd0;
   padding-top: 2%;
   padding-bottom: 5%;
@@ -191,7 +193,7 @@ nav .navbar-nav li a {
 }
 
 #contact-information {
- margin-left: 3%;
+ margin-left: 19%;
 }
 
 #contact-information p {
