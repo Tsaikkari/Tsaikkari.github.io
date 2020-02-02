@@ -161,14 +161,13 @@ nav .navbar-nav li a {
 .info {
   position: absolute; /* let's us move the text around and not worry about the image */
   top: 21%;
-  left: 3%;
+  left: 5%;
   color: #000;
   text-align: center;
   font-family: 'Lora', serif;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 0.3em;
-  font-weight: 700;
+  letter-spacing: 0.1em;
   display: none;
 }
 

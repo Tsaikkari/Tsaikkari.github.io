@@ -19,7 +19,7 @@ $(document).ready(function() {
         <a href='" + works[i].href + "' class='work-img'>\
         <img class='img-fluid' src='" + works[i].pic + "'>\
         <span class='info'><p class='proj-title'></p>" + works[i].title + "</span>\
-      </a>\
+        </a>\
         </div>\
       ");
 
@@ -27,7 +27,7 @@ $(document).ready(function() {
       if(i%2 === 0){
         $(images[i]).css("border", "");
       } else {
-        $(images[i]).css("border-bottom", "solid 4px #fff");
+        $(images[i]).css("border-bottom", "solid 4px #000");
       };
 
       var texts = $(".info");
