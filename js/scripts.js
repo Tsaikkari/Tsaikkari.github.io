@@ -32,9 +32,9 @@ $(document).ready(function() {
 
       var texts = $(".info");
       if(i%2 === 0) {
-        $(texts[i]).css("color", "#ff80ed");
+        $(texts[i]).css({"color": "#ff80ed", "top": "2.5rem", "left": "0.5rem"});
       } else {
-        $(texts[i]).css("color", "#000"); 
+        $(texts[i]).css({"color": "gold", "top": "6rem", "left": "7.8rem"}); 
       }
     };
       $(".work-img").mouseenter(function() {

@@ -5,8 +5,8 @@ var works = [
     href: "https://coralcat.herokuapp.com"
   },
   {
-    title:"Notes Game; Work in progress",
+    title:"Notes Game",
     pic: "img/game.png",
-    href: "https://notes-game.netlify.com/"
+    href: "https://notes-game-imt6ych5g.now.sh/"
   }
 ];
