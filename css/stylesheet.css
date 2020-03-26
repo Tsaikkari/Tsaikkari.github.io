@@ -151,7 +151,7 @@ nav .navbar-nav li a {
 };
 
 /*work */
-.work-pic {
+.work-img {
   display: block;
   margin: auto;
   max-width: 400px; /* needs to be set to the width of your image files if they are relatively small */

@@ -25,9 +25,9 @@ $(document).ready(function() {
 
       var images = $("#work img");
       if(i%2 === 0){
-        $(images[i]).css("border", "");
+        $(images[i]).css("border", "1px solid #19cbd0");
       } else {
-        $(images[i]).css("border-bottom", "solid 4px #000");
+        $(images[i]).css("border", "1px solid  #1aa8db");
       };
 
       var texts = $(".info");
