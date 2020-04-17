@@ -43,7 +43,7 @@ nav .navbar-nav li a {
 
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-collapse {
-  padding-right:23%;
+  padding-right: 23%;
   }
 }
 
@@ -173,7 +173,7 @@ nav .navbar-nav li a {
   height: 500px;
   background-image: url("../img/contact1.jpg");
   background-repeat: no-repeat;
-  padding-top: 55px;
+  padding-top: 50px 0 40px;
   background-attachment: fixed; /*Give the background a fixed position does it not scroll when you scroll*/
   background-size: cover; /*Have the background cover the entire div section*/
   color: #286788; /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
@@ -201,7 +201,7 @@ nav .navbar-nav li a {
 
 /*Footer*/
 footer {
-  padding-bottom: 3%;
+  padding: 50px 0;
   background-color: #000;
   color: #0900ff; 
 }

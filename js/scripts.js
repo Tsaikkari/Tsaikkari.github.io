@@ -42,5 +42,8 @@ $(document).ready(function() {
       }).mouseleave(function() {
         $(".info", this).hide();
       });
+
       return false;
   });
+
+  document.getElementById("copyright").innerHTML = new Date().getFullYear();
