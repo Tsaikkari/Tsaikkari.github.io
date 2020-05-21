@@ -50,7 +50,6 @@ p {
 }
 
 .name {
-   /*#108f84;*/
   color: #197872;
   font-family: 'Sacramento', cursive;
   font-size: 3.5rem;
@@ -123,14 +122,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
 }
 
 section {
-  text-align: center;
-  /* width: 100vw !important; */
-  /* height: 40rem; */
-}
-
-.info-container {
-  height: 10rem;
-  padding-top: 5rem;
   text-align: center;
 }
 
