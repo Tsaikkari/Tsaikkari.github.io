@@ -135,7 +135,6 @@ section {
 }
 
 .works-container {
-  /* height: 40rem; */
   margin: auto;
   padding-top: 50px;
   width: 96%;
@@ -163,6 +162,10 @@ section {
 .clear {
   background-color: #d3eaf0; 
   padding: 2.9rem; 
+}
+
+.clear-again {
+  padding: 2.9rem;
 }
 
 hr {
