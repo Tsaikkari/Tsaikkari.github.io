@@ -20,9 +20,14 @@ $(document).ready(function() {
       <p class='card-text'>${works[i].description}</p>
       </div><div class='card-footer'>
       <a href='${works[i].href}' class='btn btn-dark'>Go To App</a>
-      </div>`);
+      </div>
+      `);
+      works[i].href === "#" && $('.btn').text('Coming up soon!');
     };
     return false;
   });
 
   document.getElementById("copyright").innerHTML = new Date().getFullYear();
+
+  
+    
