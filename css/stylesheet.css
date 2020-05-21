@@ -95,7 +95,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
 }
 
 .navbar {
-  background-color: #d4f8e8!important;
+  background-color: #E4F9F5!important;
 }
 
 .navbar a:hover {
@@ -117,7 +117,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
 
 /*Containers*/
 .top-container {
-  background-color: #d4f8e8;
+  background-color: #E4F9F5;
   position: relative;
   text-align: center;
 }
@@ -161,13 +161,13 @@ section {
 
 /* Separators */
 .clear {
-  background-color: #d4f8e8; /*#e4f9f5;*/
+  background-color: #E4F9F5; /*#e4f9f5;*/
   padding: 2.9rem; 
 }
 
 hr {
     border-style: none;
-    border-top: dotted #d4f8e8;
+    border-top: dotted #E4F9F5;
     border-width: 5px;
     margin-top: 3rem;
     width: 5%;
@@ -315,7 +315,7 @@ a.contact {
 /*Footer*/
 footer {
   padding: 50px 0;
-  background-color:  #d4f8e8;
+  background-color:  #E4F9F5;
   color: #11999e;
 }
 
