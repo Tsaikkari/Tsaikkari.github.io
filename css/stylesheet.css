@@ -249,10 +249,10 @@ hr {
 
 /** Images **/
 /*Navbar pic*/
-.img-fluid {
-  height: 4.5rem;
+.developer {
+  height: 5rem;
   margin-left: 8rem;
-  width: 4.5rem;
+  width: 5rem;
 }
 
 .my-pic {
@@ -273,7 +273,7 @@ hr {
   width: 25%;
 }
 
-.silhouette {
+.silhouette .img-fluid {
   height: 100px;
   width: 40%;
 }
