@@ -13,13 +13,17 @@ $(document).ready(function() {
     });
     //work section
     for(var i = 0; i < works.length; ++i) {
-      $("#work").append(`<div class='col-lg-3 col-md-6 col-mb-4 card-wrapper'><div class='card h-100'>
-      <img class='card-img-top' src='${works[i].pic}'><div class='card-body'>
-      <h4 class='card-title'>${works[i].title}</h4>
-      <p class='card-text'>${works[i].description}</p>
-      </div><div class='card-footer'>
-      <a href='${works[i].href}' class='btn btn-dark'>Go To App</a>
-      </div>
+      $("#work").append(`
+        <div class='col-lg-3 col-md-6 col-mb-4 card-wrapper'>
+          <div class='card h-100'>
+          <img class='card-img-top' src='${works[i].pic}'>
+          <div class='card-body'>
+          <h4 class='card-title'>${works[i].title}</h4>
+          <p class='card-text'>${works[i].description}</p>
+        </div>
+        <div class='card-footer'>
+          <a href='${works[i].href}' class='btn btn-dark'>Go To App</a>
+        </div>
       `);
       works[i].href === "#" && $('.btn').text('Coming up soon!');
     };
