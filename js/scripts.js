@@ -2,7 +2,6 @@ $(document).ready(function() {
   // Smooth scrolling
     const $root = $('html, body');
     $('.navbar a:not(.dropdown-toggle)').click(function() {
-    $('.rays').hide();
     let href = $.attr(this, 'href');
     if (href != undefined && href != '#') {
       $root.animate({
