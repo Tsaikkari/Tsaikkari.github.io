@@ -275,10 +275,26 @@ hr {
   width: 37vw !important;
 }
 
+/* credit text */
 .free-pic {
   color: #bbb;
   font-size: 10px;
 }
+
+.little-star {
+  position: relative;
+  bottom: 3.5rem;
+  right: 12rem;
+  animation-name:img-ani;
+  animation-duration: 3s;   
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes img-ani {
+  from{opacity:1;}
+  to{opacity: 0;}
+}
+
 
 /* Work */
 .btn {
