@@ -148,6 +148,10 @@ section {
     width: 300px !important;
     margin: auto !important;
   }
+  .balloon {
+    height: 70px !important;
+    width: 70px !important;
+  }
 }
 
 /* Separators */
@@ -201,22 +205,6 @@ hr {
   from{opacity:1;}
   to{opacity: 0;}
 }
-
-/* Sun */
-/*.rays {
-  position: absolute;
-  left: 19%;
-  z-index: 1;
-  width: 24%;
-  height: 100%;
-  animation-name:img-ani;
-  animation-duration: 15s;   
-  animation-timing-function: ease-in;
-}
-@keyframes img-ani {
-  from{opacity:0;}
-  to{opacity: 1;}
-}*/
 
 /*Balloon*/
 .balloon {
