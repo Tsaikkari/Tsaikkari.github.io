@@ -271,9 +271,13 @@ hr {
   width: 25%;
 }
 
-.silhouette .img-fluid {
-  height: 100px;
-  width: 40%;
+.silhouette {
+  width: 37vw !important;
+}
+
+.free-pic {
+  color: #bbb;
+  font-size: 10px;
 }
 
 /* Work */
