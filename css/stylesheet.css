@@ -143,6 +143,9 @@ section {
   .profile {
     width: 56% !important;
   }
+  .skill-row {
+    width: 58% !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -185,7 +188,7 @@ hr {
 .skill-row {   
   margin: 100px auto;
   text-align: left;
-  width: 58%;
+  width: 50%;
 }
 
 /*Clouds*/
