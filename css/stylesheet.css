@@ -103,18 +103,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-  padding-right: 8%;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-  padding-left: 4rem;
-  }
-}
-
 /*Containers*/
 .top-container {
   background-color: #d3eaf0;
@@ -138,19 +126,34 @@ section {
 
 /** mobile devices **/
 @media screen and (max-width: 600px) {
-  .main-content{
+  .main-content {
     width: 100% !important;
   }
-  .card-wrapper{
+  .card-wrapper {
     padding-bottom: 12px;
   }
-  .card{
+  .card {
     width: 300px !important;
     margin: auto !important;
   }
   .balloon {
     height: 70px !important;
     width: 70px !important;
+  }
+  .profile {
+    width: 56% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+  padding-right: 8%;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 4rem;
+  }
+  .profile {
+    width: 35% !important;
   }
 }
 
@@ -176,13 +179,13 @@ hr {
 .profile {
   padding-top: 3rem;
   margin: auto;
-  width: 35%;
+  width: 55%;
 }
 
 .skill-row {   
   margin: 100px auto;
   text-align: left;
-  width: 50%;
+  width: 56%;
 }
 
 /*Clouds*/
@@ -213,7 +216,7 @@ hr {
 }
 
 .moving-balloon {
-  position:absolute;
+  position: absolute;
   top: 9rem;
   z-index: 1;
   right:calc(100% - 100px);
