@@ -11,21 +11,18 @@ body {
 }
 
 /*Typography*/
-h1, h2 {
-  color: #003366;
+h1, h2, h3, h4, h5 {
   font-family: 'Mukta', sans-serif;
 }
 
 h1 {
+  color: #003366;
   padding-bottom: 0.5rem;
 }
 
 h2 {
+  color: #003366;
   padding-top: 1em;
-}
-
-h3, h4, h5 {
-  font-family: 'Mukta', sans-serif;
 }
 
 h3 {
@@ -288,7 +285,6 @@ hr {
   from{opacity:1;}
   to{opacity: 0;}
 }
-
 
 /* Work */
 .btn {
