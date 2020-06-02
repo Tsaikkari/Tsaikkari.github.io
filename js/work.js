@@ -3,7 +3,7 @@ let works = [
     title: "Colorful Lives",
     pic: "img/shades-of-grey.png",
     description: "JavaScript App with EJS and Node.js",
-    href: "#"
+    href: "https://ninetynineshadesofgrey.herokuapp.com/"
   },
   {
     title: "Notes Game",
