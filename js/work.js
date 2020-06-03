@@ -21,6 +21,6 @@ let works = [
     title: "Bike Store",
     pic: "img/bike.png",
     description: "E-Commerce Web App with Ruby on Rails",
-    href: "https://coralcat.herokuapp.com"
+    href: "https://bike-store-berlin.herokuapp.com/"
   }
 ];
