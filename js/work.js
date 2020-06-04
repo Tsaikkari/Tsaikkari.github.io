@@ -12,9 +12,15 @@ let works = [
     href: "https://notes-game.now.sh/"
   },
   {
-    title:"Indecision App",
+    title: "Indecision App",
     pic: "img/indecision-app.png",
     description: "React App",
     href: "https://decisions-decisions.herokuapp.com/"
   },
+  {
+    title: "Berlin Bike",
+    pic: "img/bike.png",
+    description: "E-Commerce Web App with Ruby on Rails",
+    href: "https://bike-store-berlin.herokuapp.com/"
+  }
 ];
