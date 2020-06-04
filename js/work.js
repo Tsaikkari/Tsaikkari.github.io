@@ -17,10 +17,4 @@ let works = [
     description: "React App",
     href: "https://decisions-decisions.herokuapp.com/"
   },
-  {
-    title: "Bike Store",
-    pic: "img/bike.png",
-    description: "E-Commerce Web App with Ruby on Rails",
-    href: "https://bike-store-berlin.herokuapp.com/"
-  }
 ];
