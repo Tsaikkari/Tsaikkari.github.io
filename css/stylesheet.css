@@ -126,8 +126,8 @@ section {
   .main-content {
     width: 100% !important;
   }
-  .works-container {
-    padding-top: 0;
+  .silhouette {
+    margin-left: 1.2rem;
   }
   .card-wrapper {
     padding-bottom: 12px;
