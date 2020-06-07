@@ -1,26 +1,30 @@
 let works = [
   {
-    title: "Colorful Lives",
-    pic: "img/shades-of-grey.png",
-    description: "JavaScript App with EJS and Node.js",
-    href: "https://ninetynineshadesofgrey.herokuapp.com/"
-  },
-  {
     title: "Notes Game",
     pic: "img/game.png",
     description: "JavaScript App with Material Kit",
-    href: "https://notes-game.now.sh/"
+    href: "https://notes-game.now.sh/",
+    buttonText: "Go to App!"
   },
   {
     title: "Indecision App",
     pic: "img/indecision-app.png",
     description: "React App",
-    href: "https://decisions-decisions.herokuapp.com/"
+    href: "https://decisions-decisions.herokuapp.com/",
+    buttonText: "Go to App!"
   },
   {
     title: "Berlin Bike",
     pic: "img/bike.png",
     description: "E-Commerce Web App with Ruby on Rails",
-    href: "https://bike-store-berlin.herokuapp.com/"
+    href: "https://bike-store-berlin.herokuapp.com/",
+    buttonText: "Go to App!"
+  },
+  {
+    title: "Colorful Lives",
+    pic: "img/shades-of-grey.png",
+    description: "JavaScript App with EJS and Node.js",
+    href: "https://ninetynineshadesofgrey.herokuapp.com/",
+    buttonText: "Work in Progress!"
   }
 ];

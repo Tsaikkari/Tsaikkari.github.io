@@ -22,10 +22,9 @@ $(document).ready(function() {
           <p class='card-text'>${works[i].description}</p>
         </div>
         <div class='card-footer'>
-          <a href='${works[i].href}' class='btn btn-dark'>Go to App</a>
+          <a href='${works[i].href}' class='btn btn-dark'>${works[i].buttonText}</a>
         </div>
       `);
-      works[i].href === "https://ninetynineshadesofgrey.herokuapp.com/" && $('.btn').text('Work in Progress!');
     };
     return false;
   });
