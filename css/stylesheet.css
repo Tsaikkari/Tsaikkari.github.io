@@ -126,6 +126,9 @@ section {
   .main-content {
     width: 100% !important;
   }
+  .works-container {
+    padding-top: 0;
+  }
   .card-wrapper {
     padding-bottom: 12px;
   }
