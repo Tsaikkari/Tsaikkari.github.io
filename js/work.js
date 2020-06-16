@@ -7,6 +7,13 @@ let works = [
     buttonText: "Go to App!"
   },
   {
+    title: "Expensify",
+    pic: "img/expensify.png",
+    description: "React App with Redux",
+    href: "https://kirsi-expensify-app.herokuapp.com/",
+    buttonText: "Go to App!"
+  },
+  {
     title: "Indecision App",
     pic: "img/indecision-app.png",
     description: "React App",
