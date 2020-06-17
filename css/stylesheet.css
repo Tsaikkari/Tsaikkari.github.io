@@ -144,8 +144,10 @@ section {
     width: 56% !important;
   }
   .skill-row {
-    margin: 30px auto;
     width: 58% !important;
+  }
+  .works-container {
+    padding-top: 0;
   }
 }
 
