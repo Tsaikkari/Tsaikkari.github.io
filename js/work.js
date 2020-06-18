@@ -33,5 +33,12 @@ let works = [
     description: "JavaScript App with EJS and Node.js",
     href: "https://ninetynineshadesofgrey.herokuapp.com/",
     buttonText: "Work in Progress!"
+  },
+  {
+    title: "Learn Words",
+    pic: "img/learn-words.png",
+    description: "React App with Redux",
+    href: "",
+    buttonText: "Coming up next!"
   }
 ];
