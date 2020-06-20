@@ -28,17 +28,17 @@ let works = [
     buttonText: "Go to App!"
   },
   {
+    title: "Learn Words",
+    pic: "img/learn-words.png",
+    description: "React App with Redux",
+    href: "https://learn-words-now.herokuapp.com/",
+    buttonText: "Work in Progress!"
+  },
+  {
     title: "Colorful Lives",
     pic: "img/shades-of-grey.png",
     description: "JavaScript App with EJS and Node.js",
     href: "https://ninetynineshadesofgrey.herokuapp.com/",
     buttonText: "Work in Progress!"
-  },
-  {
-    title: "Learn Words",
-    pic: "img/learn-words.png",
-    description: "React App with Redux",
-    href: "",
-    buttonText: "Coming up next!"
   }
 ];
