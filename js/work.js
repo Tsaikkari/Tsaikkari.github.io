@@ -7,6 +7,13 @@ let works = [
     buttonText: "Go to App!"
   },
   {
+    title: "Learn Words",
+    pic: "img/learn-words.png",
+    description: "React App with Redux",
+    href: "https://learn-words-now.herokuapp.com/",
+    buttonText: "Go to App!"
+  },
+  {
     title: "Expensify",
     pic: "img/expensify.png",
     description: "React App with Redux",
@@ -26,13 +33,6 @@ let works = [
     description: "E-Commerce Web App with Ruby on Rails",
     href: "https://bike-store-berlin.herokuapp.com/",
     buttonText: "Go to App!"
-  },
-  {
-    title: "Learn Words",
-    pic: "img/learn-words.png",
-    description: "React App with Redux",
-    href: "https://learn-words-now.herokuapp.com/",
-    buttonText: "Work in Progress!"
   },
   {
     title: "Colorful Lives",
