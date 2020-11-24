@@ -14,7 +14,7 @@ $(document).ready(function() {
     //work section
     for(var i = 0; i < works.length; ++i) {
       $("#work").append(`
-        <di v class='col-lg-6 card-wrapper'>
+        <div class='col-lg-6 card-wrapper'>
           <div class='card h-100'>
           <img class='card-img-top' src='${works[i].pic}'>
           <div class='card-body'>
