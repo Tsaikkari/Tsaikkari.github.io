@@ -3,7 +3,7 @@ let works = [
     title: "Cake Shop",
     pic: "img/cake-shop.png",
     description:
-      "Fullstack e-commerce app with React, Typescript, Node.js, Redux, Saga and MongoDB",
+      "Fullstack app with React, Typescript, Node.js, Redux, Saga and MongoDB",
     href: "https://cake-shop-app.netlify.app/",
     buttonText: "Go to App!",
   },
