@@ -50,10 +50,10 @@ let works = [
     buttonText: "Go to App!",
   },
   {
-    title: "Colorful Lives",
-    pic: "img/shades-of-grey.png",
-    description: "JavaScript App with EJS and Node.js",
-    href: "https://ninetynineshadesofgrey.herokuapp.com/",
+    title: "Tindev",
+    pic: "img/tindev.png",
+    description: "FullStack App with Nodejs, Postgres and Reactjs",
+    href: "https://tindev-dev.netlify.app/",
     buttonText: "Work in Progress!",
   },
 ];
