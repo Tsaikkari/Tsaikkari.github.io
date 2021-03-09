@@ -1,5 +1,12 @@
 let works = [
   {
+    title: "Tindev",
+    pic: "img/tindev.png",
+    description: "FullStack App with Nodejs, Postgres and Reactjs",
+    href: "https://tindev-dev.netlify.app/",
+    buttonText: "Work in Progress!",
+  },
+  {
     title: "Cake Shop",
     pic: "img/cake-shop.png",
     description:
@@ -48,12 +55,5 @@ let works = [
     description: "E-Commerce Web App with Ruby on Rails",
     href: "https://bike-store-berlin.herokuapp.com/",
     buttonText: "Go to App!",
-  },
-  {
-    title: "Tindev",
-    pic: "img/tindev.png",
-    description: "FullStack App with Nodejs, Postgres and Reactjs",
-    href: "https://tindev-dev.netlify.app/",
-    buttonText: "Work in Progress!",
   },
 ];
