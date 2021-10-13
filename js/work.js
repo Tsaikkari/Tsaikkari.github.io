@@ -1,10 +1,17 @@
 let works = [
   {
+    title: "Cake Shop",
+    pic: "img/cake-shop.png",
+    description: "FullStack App with Nodejs, MongoDB and React.js",
+    href: "https://cake-shop-app-kirsi.netlify.app/",
+    buttonText: "Go to App!",
+  },
+  {
     title: "Tindev",
     pic: "img/tindev.png",
-    description: "FullStack App with Nodejs, Postgres and React.js",
+    description: "FullStack App with Nodejs, Typescript, Postgres and React.js",
     href: "https://tindev-dev.netlify.app/",
-    buttonText: "Work in Progress!",
+    buttonText: "Go to App!",
   },
   {
     title: "Learn Words",
@@ -41,14 +48,14 @@ let works = [
     href: "https://decisions-decisions.herokuapp.com/",
     buttonText: "Go to App!",
   },
-  {
-    title: "Star Wars",
-    pic: "img/starwars.png",
-    description:
-      "React.js App with Typescript, Redux and Redux-saga",
-    href: "https://star-wars-app-kirsi.netlify.app/",
-    buttonText: "Go to App!",
-  },
+  // {
+  //   title: "Star Wars",
+  //   pic: "img/starwars.png",
+  //   description:
+  //     "React.js App with Typescript, Redux and Redux-saga",
+  //   href: "https://star-wars-app-kirsi.netlify.app/",
+  //   buttonText: "Go to App!",
+  // },
   {
     title: "Berlin Bike",
     pic: "img/bike.png",
