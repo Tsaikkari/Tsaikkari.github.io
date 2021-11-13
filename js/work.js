@@ -27,13 +27,13 @@ let works = [
     href: "https://notes-game.now.sh/",
     buttonText: "Go to App!",
   },
-  {
-    title: "Countries of the World",
-    pic: "img/country-app.png",
-    description: "React.js App with Redux",
-    href: "https://kt-country-app.netlify.app/",
-    buttonText: "Go to App!",
-  },
+  // {
+  //   title: "Countries of the World",
+  //   pic: "img/country-app.png",
+  //   description: "React.js App with Redux",
+  //   href: "https://kt-country-app.netlify.app/",
+  //   buttonText: "Go to App!",
+  // },
   {
     title: "Expensify",
     pic: "img/expensify.png",
@@ -56,11 +56,11 @@ let works = [
   //   href: "https://star-wars-app-kirsi.netlify.app/",
   //   buttonText: "Go to App!",
   // },
-  {
-    title: "Berlin Bike",
-    pic: "img/bike.png",
-    description: "E-Commerce Web App with Ruby on Rails",
-    href: "https://bike-store-berlin.herokuapp.com/",
-    buttonText: "Go to App!",
-  },
+  // {
+  //   title: "Berlin Bike",
+  //   pic: "img/bike.png",
+  //   description: "E-Commerce Web App with Ruby on Rails",
+  //   href: "https://bike-store-berlin.herokuapp.com/",
+  //   buttonText: "Go to App!",
+  // },
 ];
