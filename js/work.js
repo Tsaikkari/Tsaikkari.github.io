@@ -7,10 +7,10 @@ let works = [
     buttonText: 'Go to App!',
   },
   {
-    title: 'Get Together',
-    pic: 'img/community-app.png',
-    description: 'FullStack App with Nodejs, hbs and MongoDB',
-    href: 'https://community-app-get-together.herokuapp.com/',
+    title: 'Daily Dose of Dopamine',
+    pic: 'img/vision-board.png',
+    description: 'FullStack App with Node.js, React.js and MongoDB',
+    href: 'https://daily-dose-of-dopamine.herokuapp.com/',
     buttonText: 'Go to App!',
   },
   {
