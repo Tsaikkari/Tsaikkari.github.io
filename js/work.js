@@ -4,7 +4,7 @@ let works = [
     pic: 'img/digihappy.png',
     description:
       'Real Life FullStack App with Nodejs, PostgreSQL, TypeORM, React.js and TypeScript',
-    href: 'https://cake-shop-app-kirsi.netlify.app/',
+    href: 'https://digihappy.fi/',
     buttonText: 'Go to App!',
   },
   {
