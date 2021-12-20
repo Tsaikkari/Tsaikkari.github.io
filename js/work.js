@@ -11,7 +11,7 @@ let works = [
     title: 'Cake Shop',
     pic: 'img/cake-shop.png',
     description:
-      'FullStack App with Nodejs, MongoDN, Mongoose, React.js and TypeScript',
+      'FullStack App with Nodejs, MongoDB, Mongoose, React.js and TypeScript',
     href: 'https://cake-shop-app-kirsi.netlify.app/',
     buttonText: 'Go to App!',
   },
