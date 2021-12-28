@@ -37,10 +37,10 @@ let works = [
     buttonText: 'Go to App!',
   },
   {
-    title: 'Indecision App',
-    pic: 'img/indecision-app.png',
-    description: 'React.js App',
-    href: 'https://decisions-decisions.herokuapp.com/',
+    title: 'Get Together',
+    pic: 'img/community-app.png',
+    description: 'Node.js, Express, HBS App',
+    href: 'https://community-app-get-together.herokuapp.com/',
     buttonText: 'Go to App!',
   },
 ]
