@@ -79,7 +79,7 @@ p {
 
 .get-in-touch {
   color: #197872;
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
   padding-top: 0;
 }
 
@@ -326,6 +326,10 @@ hr {
   padding-bottom: 2rem;
 }
 
+.phone {
+  margin-bottom: 1.6rem;
+}
+
 a.contact {
   margin: auto;
 }
@@ -333,7 +337,7 @@ a.contact {
 .button {
   color: rgb(255, 255, 255);
   font-size: 20px;
-  padding: 8px;
+  padding: 8px 19px;
   text-shadow: 0px 0px 0px rgba(30, 30, 30, 0.8);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
