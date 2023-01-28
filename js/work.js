@@ -32,7 +32,7 @@ let works = [
   {
     title: 'Notes Game',
     pic: 'img/game.png',
-    description: 'JavaScript App with Material Kit',
+    description: 'jQuery App with Material Kit',
     href: 'https://notes-game.now.sh/',
     buttonText: 'Go to App!',
   },/*
